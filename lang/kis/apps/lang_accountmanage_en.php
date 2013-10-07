@@ -1,0 +1,43 @@
+<?
+$kis_lang['personalinfo'] 		= "Personal Info";
+$kis_lang['contactinfo'] 		= "Contact Info";
+$kis_lang['changepassword'] 		= "Change Password";
+$kis_lang['loginid'] 			= "Login ID";
+$kis_lang['englishname'] 		= "English Name";
+$kis_lang['chinesename'] 		= "Chinese Name";
+$kis_lang['nickname'] 			= "Nick Name";
+$kis_lang['male'] 			= "Male";
+$kis_lang['female'] 			= "Female";
+$kis_lang['hometel'] 			= "Home Tel";
+$kis_lang['officetel'] 			= "Office Tel";
+$kis_lang['mobiletel'] 			= "Mobile Tel";
+$kis_lang['fax'] 			= "Fax";
+$kis_lang['address'] 			= "Address";
+$kis_lang['country'] 			= "Country";
+$kis_lang['homepageurl'] 		= "Homepage URL";
+$kis_lang['email'] 			= "Email";
+$kis_lang['othercountries'] 		= "Other Countries";
+$kis_lang['china'] 			= "China (Mainland)";
+$kis_lang['hongkong'] 			= "Hong Kong";
+$kis_lang['macau'] 			= "Macau";
+$kis_lang['malaysia'] 			= "Malaysia";
+$kis_lang['taiwan'] 			= "Taiwan";
+$kis_lang['oldpassword'] 		= "Old Password";
+$kis_lang['newpassword'] 		= "New Password";
+$kis_lang['passwordsecurity'] 		= "Password Security";
+$kis_lang['retypepassword'] 		= "Re-type Password";
+$kis_lang['incorrectpassword'] 		= "Incorrect Password";
+$kis_lang['passwordnotmatch'] 		= "Password Not Match";
+$kis_lang['passwordtooshort'] 		= "Password Too Short";
+$kis_lang['passwordchanged'] 		= "Password changed";
+$kis_lang['atleast6characters'] 	= "At least 6 characters";
+$kis_lang['invalidemail'] 		= "Invalid Email";
+$kis_lang['emailalreadyexists'] 	= "Email already exists";
+$kis_lang['nil'] 			= "nil";
+$kis_lang['low'] 			= "Low";
+$kis_lang['medium'] 			= "Medium";
+$kis_lang['high'] 			= "High";
+$kis_lang['unsupportedformat']		= "Unsupported Format";
+$kis_lang['exceedlimit']		= "File excceeds the size limit";
+
+?>

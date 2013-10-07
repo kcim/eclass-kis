@@ -1,0 +1,181 @@
+<?
+/**
+ * KIS Lang English
+ *
+ * @author Mick Chiu
+ * @since 2012-03-27
+ *
+ */
+ 
+#Siuwan 20130826 Migrate from lang.en.php
+$i_ClubsEnrollment_WholeYear = "Whole Year";
+$Lang['SysMgr']['FormClassMapping']['Select']['Term'] = 'Select Term';
+
+#Siuwan 20130826 Migrate from iportfolio_lang.en.php
+$langpf_lp2['admin']['item']["lessthan1minago"] = 'less than 1 minute ago';
+$langpf_lp2['admin']['item']["minsago"] = 'minutes ago';
+$langpf_lp2['admin']['item']["hoursago"] = 'hours ago';
+$langpf_lp2['admin']['item']['today'] = "Today";
+$langpf_lp2['admin']['item']['yesterday'] = "Yesterday";
+$langpf_lp2['admin']['item']['daysago'] = 'days ago';
+$langpf_lp2['admin']['item']['dayago'] = 'day ago';
+
+$kis_lang['all'] 			= "All";
+$kis_lang['menu'] 			= "Menu";
+$kis_lang['search'] 			= "Search";
+$kis_lang['advanced'] 			= "Advanced";
+$kis_lang['teacher'] 			= "Teacher";
+$kis_lang['parent'] 			= "Parent";
+$kis_lang['student'] 			= "Student";
+$kis_lang['students'] 			= "Students";
+$kis_lang['staff'] 			= "Staff";
+$kis_lang['user'] 			= "User";
+$kis_lang['users'] 			= "Users";
+$kis_lang['usertype_T'] 		= "Teacher";
+$kis_lang['usertype_P'] 		= "Parent";
+$kis_lang['usertype_S'] 		= "Student";
+$kis_lang['userrecordtype_1'] 		= "Teacher/Staff";
+$kis_lang['userrecordtype_3'] 		= "Parent";
+$kis_lang['userrecordtype_2'] 		= "Student";
+$kis_lang['userrecordtype_4'] 		= "Alumni";
+$kis_lang['identity']			= "Identity";
+$kis_lang['gender_M'] 			= "Male";
+$kis_lang['gender_F'] 			= "Female";
+$kis_lang['edit'] 			= "Edit";
+$kis_lang['date']			= "Date";
+$kis_lang['size']			= "Size";
+$kis_lang['records']			= "Record(s)";
+$kis_lang['total']			= "Total";
+$kis_lang['page']			= "Page";
+$kis_lang['norecord']			= "No Record";
+$kis_lang['display']			= "Display";
+$kis_lang['home'] 			= "Home";
+$kis_lang['print'] 			= "Print";
+$kis_lang['content'] 			= "Content";
+$kis_lang['import'] 			= "Import";
+$kis_lang['export'] 			= "Export";
+$kis_lang['status']			= "Status";
+$kis_lang['details'] 			= "Details";
+$kis_lang['settings'] 			= "Settings";
+$kis_lang['lastupdated'] 		= "Last Updated";
+$kis_lang['loading']			= "Loading";
+$kis_lang['areyousureto']		= "Are you sure to ";
+$kis_lang['logout']			= "log out";
+$kis_lang['class']			= "Class";
+$kis_lang['classteacher']		= "Class Teacher";
+$kis_lang['go']				= "Go";
+$kis_lang['studentname']		= "Student Name";
+$kis_lang['new']			= "New";
+$kis_lang['yes']			= "Yes";
+$kis_lang['no']				= "No";
+$kis_lang['submit']			= "Submit";
+$kis_lang['classes']			= "Classes";
+$kis_lang['view']			= "View";
+$kis_lang['noofstudents']		= "No. of Students";
+$kis_lang['note']			= "Note";
+$kis_lang['selectall']			= "Select all";
+$kis_lang['unselectall']		= "Unselect all";
+$kis_lang['reset']			= "Reset";
+$kis_lang['delete']			= "Delete";
+$kis_lang['remove']			= "Remove";
+$kis_lang['removethisrecord']		= "remove this record";
+$kis_lang['select']			= "Select";
+$kis_lang['cancel']			= "Cancel";
+$kis_lang['close']			= "Close";
+$kis_lang['ok']				= "OK";
+$kis_lang['copy']			= "Copy";
+$kis_lang['from']			= "From";
+$kis_lang['to']				= "To";
+$kis_lang['add']			= "Add";
+$kis_lang['addall']			= "Add all";
+$kis_lang['back']			= "Back";
+$kis_lang['more']			= "More";
+$kis_lang['days']			= "day(s)";
+$kis_lang['daysago']			= "day(s) ago";
+$kis_lang['minutesago']			= "minute(s) ago";
+$kis_lang['hoursago']			= "hour(s) ago";
+$kis_lang['items']			= "item(s)";
+$kis_lang['groups']			= "Groups";
+$kis_lang['group']			= "Group";
+$kis_lang['information']		= "Information";
+$kis_lang['gender']			= "Gender";
+$kis_lang['report'] 			= "Report";
+$kis_lang['keyword'] 			= "Keyword";
+$kis_lang['time']			= "Time";
+$kis_lang['remark']			= "Remark";
+$kis_lang['preview']			= "Preview";
+$kis_lang['printpreview']		= "Print Preview";
+$kis_lang['lastmodifed']		= "Last Modified";
+$kis_lang['wholeschool']		= "Whole School";
+$kis_lang['categories'] 		= "Categories";
+$kis_lang['category'] 			= "Category";
+$kis_lang['item'] 			= "Item";
+$kis_lang['amount'] 			= "Amount";
+$kis_lang['finish'] 			= "Finish";
+$kis_lang['recordsupdated']		= "Records updated";
+$kis_lang['attachments']		= "Attachments";
+$kis_lang['type']			= "Type";
+$kis_lang['phone']			= "Phone";
+$kis_lang['createnew']			= "Create New";
+$kis_lang['englishname']		= "English Name";
+$kis_lang['chinesename']		= "Chinese Name";
+$kis_lang['dateofbirth']		= "Date of Birth";
+$kis_lang['placeofbirth']		= "Place of Birth";
+$kis_lang['nationality']		= "Nationality";
+$kis_lang['homephoneno']		= "Home Phone No.";
+$kis_lang['phoneno']			= "Phone No.";
+$kis_lang['since']			= "Since";
+$kis_lang['until']			= "Until";
+$kis_lang['month']			= "Month";
+$kis_lang['year']			= "Year";
+$kis_lang['load']			= "Load";
+$kis_lang['save']			= "Save";
+$kis_lang['pleaseentervalid']		= "Please enter valid ";
+$kis_lang['and']			= " and ";
+$kis_lang['only']			= "only";
+$kis_lang['permissiondenied']		= "Permission Denied";
+$kis_lang['uploadfileconfirm']		= "File upload has not yet completed, are you sure to quit";
+$kis_lang['findusers']			= "Find Users";
+$kis_lang['toomanyresults']		= "Too many results were found, Please refine your search criteria";
+$kis_lang['#']				= "#";
+
+$kis_lang['app_iportfolio'] 		= "iPortfolio";
+$kis_lang['app_eattendance']		= "eAttendance";
+$kis_lang['app_message'] 		= "Campus Mail";
+$kis_lang['app_calendar'] 		= "School Calendar";
+$kis_lang['app_enotice'] 		= "eNotice";
+$kis_lang['app_sms'] 			= "SMS Center";
+$kis_lang['app_admission'] 		= "Admission";
+$kis_lang['app_album']			= "Photo Album";
+$kis_lang['app_econtent'] 		= "Content Resources";
+$kis_lang['app_einventory']		= "eInventory";
+$kis_lang['app_website'] 		= "School Website";
+$kis_lang['app_websitecms'] 		= "Website CMS";
+$kis_lang['app_elibrary'] 		= "eLibrary Plus";
+$kis_lang['app_shop'] 			= "Shop";
+$kis_lang['app_epayment'] 		= "ePayment";
+$kis_lang['app_pos'] 			= "ePOS";
+$kis_lang['app_schoolsettings'] 	= "School Settings";
+$kis_lang['app_accountmanage'] 		= "Account Management";
+
+$kis_lang['month_1']			= "January";
+$kis_lang['month_2']			= "February";
+$kis_lang['month_3']			= "March";
+$kis_lang['month_4']			= "April";
+$kis_lang['month_5']			= "May";
+$kis_lang['month_6']			= "June";
+$kis_lang['month_7']			= "July";
+$kis_lang['month_8']			= "August";
+$kis_lang['month_9']			= "September";
+$kis_lang['month_10']			= "October";
+$kis_lang['month_11']			= "November";
+$kis_lang['month_12']			= "December";
+
+$kis_lang['sunday']			= "Sunday";
+$kis_lang['monday']			= "Monday";
+$kis_lang['tuesday']			= "Tuesday";
+$kis_lang['wednesday']			= "Wednesday";
+$kis_lang['thursday']			= "Thursday";
+$kis_lang['friday']			= "Friday";
+$kis_lang['saturday']			= "Saturday";
+?>

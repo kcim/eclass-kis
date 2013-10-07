@@ -1,0 +1,34 @@
+<?
+$kis_lang['transactionrecords'] 	= "Transaction Records";
+$kis_lang['paymentrecords'] 		= "Payment Records";
+$kis_lang['addvaluerecords'] 		= "Add Value Records";
+$kis_lang['recent'] 			= "Recent";
+$kis_lang['days'] 			= "days";
+$kis_lang['selectperiod'] 		= "Select Period";
+$kis_lang['transactiontime'] 		= "Transaction Time";
+$kis_lang['addvaluerecordtime'] 	= "Add Value Record Time";
+$kis_lang['trantype'] 			= "Tran. Type";
+$kis_lang['credit'] 			= "Credit";
+$kis_lang['debit'] 			= "Debit";
+$kis_lang['balance'] 			= "Balance";
+$kis_lang['refcode'] 			= "Ref Code";
+$kis_lang['payment'] 			= "Payment";
+$kis_lang['amount'] 			= "Amount";
+$kis_lang['creditamount'] 		= "Credit Amount";
+$kis_lang['creditmethod'] 		= "Credit Method";
+$kis_lang['subsidy'] 			= "Subsidy";
+$kis_lang['deadline'] 			= "Deadline";
+$kis_lang['paid'] 			= "Paid";
+$kis_lang['unpaid'] 			= "Unpaid";
+$kis_lang['posttime'] 			= "Post Time";
+$kis_lang['cashdeposit'] 		= "Cash Deposit";
+$kis_lang['accountbalance'] 		= "Account Balance";
+$kis_lang['payment'] 			= "Payment";
+$kis_lang['purchase'] 			= "Purchase";
+$kis_lang['transferto'] 		= "Transfer to";
+$kis_lang['transferfrom'] 		= "Transfer from";
+$kis_lang['cancelpayment'] 		= "Cancel Payment";
+$kis_lang['pps'] 			= "PPS";
+$kis_lang['cashdeposit'] 		= "Cash Deposit";
+$kis_lang['addvaluemachine'] 		= "Add Value Machine";
+?>

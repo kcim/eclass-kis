@@ -1,0 +1,1 @@
+<? kis_ui::loadTemplate($kis_data['main_template'], $kis_data); ?>

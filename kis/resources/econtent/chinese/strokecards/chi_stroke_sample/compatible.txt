@@ -1,0 +1,18 @@
+FF 4.0 -------- O
+(NEWEST ----- 18)
+
+SAFARI 3.23 --- X
+SAFARI 4.0 ---- O
+(NEWEST ------ 5)
+
+Chrome 1.0.154 -- X
+Chrome 2.0.172 -- O
+Chrome 17.0.963 - O
+Chrome 18.0.1025  X (BUG)
+Chrome 24.0.1312  X (BUG)
+Chrome 27.0.1416 canary --- O
+(NEWEST ------- 24)
+
+IE 8 ---------- X
+IE 9(LATEST) -- O
+(NEWEST ------ 10)

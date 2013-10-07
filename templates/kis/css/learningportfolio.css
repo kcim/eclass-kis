@@ -1,0 +1,19 @@
+.publish_table {border-collapse: collapse;}
+.publish_table th, .publish_table td{border:1px solid black; text-align:center}
+
+body.setting_bg { background:none; min-width:770px; width:770px; }
+body.setting_section_bg { background:none; min-width:570px; width:570px; }
+.setting_board { display:block; padding-bottom:30px;}
+h1.setting_title { display:block; padding-bottom:10px; font-weight:bold; font-size:1.2em; color:#0e4d00; text-align:center; clear:both; padding:0; margin:0;}
+.control_board { background: #EFEFEF; padding:10px;
+  background: -webkit-gradient(linear, top, bottom, from(#ededed), to(#fff));
+    /* Safari 5.1, Chrome 10+ */
+  background: -webkit-linear-gradient(top, #ededed, #fff);
+    /* Firefox 3.6+ */
+  background: -moz-linear-gradient(top, #ededed, #fff);
+    /* IE 10 */
+  background: -ms-linear-gradient(top, #ededed, #fff);
+    /* Opera 11.10+ */
+  background: -o-linear-gradient(top, #ededed, #fff); }
+.control_board h2 { background:url(/images/2009a/iPortfolio/LP/setting_control_title.gif) repeat-x center; margin:0; padding:0; font-size:1em; font-weight:bold; margin-bottom:10px}
+.control_board h2 span { background:#ededed; padding-left:5px; padding-right:10px; }

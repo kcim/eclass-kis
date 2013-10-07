@@ -1,0 +1,243 @@
+body {margin:0 auto; background:url(../images/bg.gif) #4f8d13 repeat-x; text-align:center; font-family:Verdana, Arial, Helvetica, sans-serif}
+input {font-size:14px}
+textarea {font-size:14px}
+
+.container {width:1000px; height:625px; margin:0 auto}
+
+#icon_ch {width:200px; height:170px; margin-bottom:5px; margin-top:0/* position:absolute*/; position:relative; float:left}
+#icon_ch:hover {margin-top:5px; margin-bottom:0}
+
+.icon_ks1_seta_ch1 {background:url(../images/ks1/icon_chapter/math_1.png) 0 0}
+.icon_ks1_seta_ch2 {background:url(../images/ks1/icon_chapter/math_2.png) 0 0}
+.icon_ks1_seta_ch3 {background:url(../images/ks1/icon_chapter/math_3.png) 0 0}
+.icon_ks1_seta_ch4 {background:url(../images/ks1/icon_chapter/math_4.png) 0 0}
+.icon_ks1_seta_ch5 {background:url(../images/ks1/icon_chapter/math_5.png) 0 0}
+.icon_ks1_seta_ch6 {background:url(../images/ks1/icon_chapter/math_6.png) 0 0}
+.icon_ks1_seta_ch7 {background:url(../images/ks1/icon_chapter/math_7.png) 0 0}
+.icon_ks1_seta_ch8 {background:url(../images/ks1/icon_chapter/math_8.png) 0 0}
+.icon_ks1_seta_ch9 {background:url(../images/ks1/icon_chapter/math_9.png) 0 0}
+.icon_ks1_seta_ch10 {background:url(../images/ks1/icon_chapter/math_10.png) 0 0}
+.icon_ks1_seta_ch11 {background:url(../images/ks1/icon_chapter/math_11.png) 0 0}
+.icon_ks1_seta_ch12 {background:url(../images/ks1/icon_chapter/math_12.png) 0 0}
+.icon_ks1_seta_ch13 {background:url(../images/ks1/icon_chapter/math_13.png) 0 0}
+.icon_ks1_seta_ch14 {background:url(../images/ks1/icon_chapter/math_14.png) 0 0}
+.icon_ks1_seta_ch15 {background:url(../images/ks1/icon_chapter/math_15.png) 0 0}
+.icon_ks1_seta_ch16 {background:url(../images/ks1/icon_chapter/math_16.png) 0 0}
+.icon_ks1_seta_ch17 {background:url(../images/ks1/icon_chapter/math_17.png) 0 0}
+.icon_ks1_seta_extra_ch1 {background:url(../images/ks1/icon_chapter/math_extra1.png) 0 0}
+.icon_ks1_seta_extra_ch2 {background:url(../images/ks1/icon_chapter/math_extra2.png) 0 0}
+
+.icon_ks1_setb_ch1 {background:url(../images/ks1/icon_chapter/shape_1.png) 0 0}
+.icon_ks1_setb_ch2 {background:url(../images/ks1/icon_chapter/shape_2.png) 0 0}
+.icon_ks1_setb_ch3 {background:url(../images/ks1/icon_chapter/shape_3.png) 0 0}
+.icon_ks1_setb_ch4 {background:url(../images/ks1/icon_chapter/shape_4.png) 0 0}
+.icon_ks1_setb_ch5 {background:url(../images/ks1/icon_chapter/shape_5.png) 0 0}
+.icon_ks1_setb_ch6 {background:url(../images/ks1/icon_chapter/shape_6.png) 0 0}
+.icon_ks1_setb_ch7 {background:url(../images/ks1/icon_chapter/shape_7.png) 0 0}
+.icon_ks1_setb_ch8 {background:url(../images/ks1/icon_chapter/shape_8.png) 0 0}
+.icon_ks1_setb_ch9 {background:url(../images/ks1/icon_chapter/shape_9.png) 0 0}
+.icon_ks1_setb_ch10 {background:url(../images/ks1/icon_chapter/shape_10.png) 0 0}
+.icon_ks1_setb_ch11 {background:url(../images/ks1/icon_chapter/shape_11.png) 0 0}
+
+.icon_ks1_setc_ch1 {background:url(../images/ks1/icon_chapter/measure_1.png) 0 0}
+.icon_ks1_setc_ch2 {background:url(../images/ks1/icon_chapter/measure_2.png) 0 0}
+.icon_ks1_setc_ch3 {background:url(../images/ks1/icon_chapter/measure_3.png) 0 0}
+.icon_ks1_setc_ch4 {background:url(../images/ks1/icon_chapter/measure_4.png) 0 0}
+.icon_ks1_setc_ch5 {background:url(../images/ks1/icon_chapter/measure_5.png) 0 0}
+.icon_ks1_setc_ch6 {background:url(../images/ks1/icon_chapter/measure_6.png) 0 0}
+.icon_ks1_setc_ch7 {background:url(../images/ks1/icon_chapter/measure_7.png) 0 0}
+.icon_ks1_setc_ch8 {background:url(../images/ks1/icon_chapter/measure_8.png) 0 0}
+.icon_ks1_setc_ch9 {background:url(../images/ks1/icon_chapter/measure_9.png) 0 0}
+.icon_ks1_setc_ch10 {background:url(../images/ks1/icon_chapter/measure_10.png) 0 0}
+.icon_ks1_setc_ch11 {background:url(../images/ks1/icon_chapter/measure_11.png) 0 0}
+.icon_ks1_setc_ch12 {background:url(../images/ks1/icon_chapter/measure_12.png) 0 0}
+.icon_ks1_setc_extra_ch1 {background:url(../images/ks1/icon_chapter/measure_extra1.png) 0 0}
+
+.icon_ks1_setd_ch1 {background:url(../images/ks1/icon_chapter/data_1.png) 0 0}
+.icon_ks1_setd_ch2 {background:url(../images/ks1/icon_chapter/data_2.png) 0 0}
+.icon_ks1_setd_extra_ch1 {background:url(../images/ks1/icon_chapter/data_extra1.png) 0 0}
+
+.icon_ks2_seta_ch1 {background:url(../images/ks2/icon_chapter/math_1.png) 0 0}
+.icon_ks2_seta_ch2 {background:url(../images/ks2/icon_chapter/math_2.png) 0 0}
+.icon_ks2_seta_ch3 {background:url(../images/ks2/icon_chapter/math_3.png) 0 0}
+.icon_ks2_seta_ch4 {background:url(../images/ks2/icon_chapter/math_4.png) 0 0}
+.icon_ks2_seta_ch5 {background:url(../images/ks2/icon_chapter/math_5.png) 0 0}
+.icon_ks2_seta_ch6 {background:url(../images/ks2/icon_chapter/math_6.png) 0 0}
+.icon_ks2_seta_ch7 {background:url(../images/ks2/icon_chapter/math_7.png) 0 0}
+.icon_ks2_seta_ch8 {background:url(../images/ks2/icon_chapter/math_8.png) 0 0}
+.icon_ks2_seta_ch9 {background:url(../images/ks2/icon_chapter/math_9.png) 0 0}
+.icon_ks2_seta_ch10 {background:url(../images/ks2/icon_chapter/math_10.png) 0 0}
+.icon_ks2_seta_ch11 {background:url(../images/ks2/icon_chapter/math_11.png) 0 0}
+.icon_ks2_seta_ch12 {background:url(../images/ks2/icon_chapter/math_12.png) 0 0}
+.icon_ks2_seta_ch13 {background:url(../images/ks2/icon_chapter/math_13.png) 0 0}
+.icon_ks2_seta_ch14 {background:url(../images/ks2/icon_chapter/math_14.png) 0 0}
+.icon_ks2_seta_ch15 {background:url(../images/ks2/icon_chapter/math_15.png) 0 0}
+.icon_ks2_seta_ch16 {background:url(../images/ks2/icon_chapter/math_16.png) 0 0}
+.icon_ks2_seta_ch17 {background:url(../images/ks2/icon_chapter/math_17.png) 0 0}
+.icon_ks2_seta_ch18 {background:url(../images/ks2/icon_chapter/math_18.png) 0 0}
+.icon_ks2_seta_extra_ch1 {background:url(../images/ks2/icon_chapter/math_extra1.png) 0 0}
+.icon_ks2_seta_extra_ch2 {background:url(../images/ks2/icon_chapter/math_extra2.png) 0 0}
+.icon_ks2_seta_extra_ch3 {background:url(../images/ks2/icon_chapter/math_extra3.png) 0 0}
+.icon_ks2_seta_extra_ch4 {background:url(../images/ks2/icon_chapter/math_extra4.png) 0 0}
+.icon_ks2_seta_extra_ch5 {background:url(../images/ks2/icon_chapter/math_extra5.png) 0 0}
+
+.icon_ks2_setb_ch1 {background:url(../images/ks2/icon_chapter/shape_1.png) 0 0}
+.icon_ks2_setb_ch2 {background:url(../images/ks2/icon_chapter/shape_2.png) 0 0}
+.icon_ks2_setb_ch3 {background:url(../images/ks2/icon_chapter/shape_3.png) 0 0}
+.icon_ks2_setb_ch4 {background:url(../images/ks2/icon_chapter/shape_4.png) 0 0}
+.icon_ks2_setb_ch5 {background:url(../images/ks2/icon_chapter/shape_5.png) 0 0}
+.icon_ks2_setb_ch6 {background:url(../images/ks2/icon_chapter/shape_6.png) 0 0}
+.icon_ks2_setb_ch7 {background:url(../images/ks2/icon_chapter/shape_7.png) 0 0}
+.icon_ks2_setb_extra_ch1 {background:url(../images/ks2/icon_chapter/shape_extra1.png) 0 0}
+.icon_ks2_setb_extra_ch2 {background:url(../images/ks2/icon_chapter/shape_extra2.png) 0 0}
+.icon_ks2_setb_extra_ch3 {background:url(../images/ks2/icon_chapter/shape_extra3.png) 0 0}
+.icon_ks2_setb_extra_ch4 {background:url(../images/ks2/icon_chapter/shape_extra4.png) 0 0}
+
+.icon_ks2_setc_ch1 {background:url(../images/ks2/icon_chapter/measure_1.png) 0 0}
+.icon_ks2_setc_ch2 {background:url(../images/ks2/icon_chapter/measure_2.png) 0 0}
+.icon_ks2_setc_ch3 {background:url(../images/ks2/icon_chapter/measure_3.png) 0 0}
+.icon_ks2_setc_ch4 {background:url(../images/ks2/icon_chapter/measure_4.png) 0 0}
+.icon_ks2_setc_ch5 {background:url(../images/ks2/icon_chapter/measure_5.png) 0 0}
+.icon_ks2_setc_ch6 {background:url(../images/ks2/icon_chapter/measure_6.png) 0 0}
+.icon_ks2_setc_ch7 {background:url(../images/ks2/icon_chapter/measure_7.png) 0 0}
+.icon_ks2_setc_extra_ch1 {background:url(../images/ks2/icon_chapter/measure_extra1.png) 0 0}
+
+.icon_ks2_setd_ch1 {background:url(../images/ks2/icon_chapter/data_1.png) 0 0}
+.icon_ks2_setd_ch2 {background:url(../images/ks2/icon_chapter/data_2.png) 0 0}
+.icon_ks2_setd_ch3 {background:url(../images/ks2/icon_chapter/data_3.png) 0 0}
+.icon_ks2_setd_ch4 {background:url(../images/ks2/icon_chapter/data_4.png) 0 0}
+.icon_ks2_setd_ch5 {background:url(../images/ks2/icon_chapter/data_5.png) 0 0}
+.icon_ks2_setd_ch6 {background:url(../images/ks2/icon_chapter/data_6.png) 0 0}
+.icon_ks2_setd_extra_ch1 {background:url(../images/ks2/icon_chapter/data_extra1.png) 0 0}
+
+.icon_ks2_sete_ch1 {background:url(../images/ks2/icon_chapter/formula_1.png) 0 0}
+.icon_ks2_sete_ch2 {background:url(../images/ks2/icon_chapter/formula_2.png) 0 0}
+.icon_ks2_sete_ch3 {background:url(../images/ks2/icon_chapter/formula_3.png) 0 0}
+.icon_ks2_sete_extra_ch1 {background:url(../images/ks2/icon_chapter/formula_extra1.png) 0 0}
+
+.work_area_main {width:645px; height:525px; position:absolute; margin-top:-558px; margin-left:328px; overflow-y:auto}
+.work_area {width:920px; height:320px; position:absolute; margin-top:-430px; margin-left:40px}
+.work_area2 {width:920px; height:380px; position:absolute; margin-top:-410px; margin-left:40px}
+.work_area3 {width:920px; height:380px; position:absolute; margin-top:-440px; margin-left:40px}
+.exercise_area  {	width:950px;	height:435px;	position:absolute;	margin-top:-480px;	margin-left:25px;}
+.show_question {display:block; float:left; width:470px; height:450px; margin-left:5px}
+
+.dragarea_txt {position:absolute; font-size:1.2em; color:#888888}
+.object_toothpick {width:14px; height:158px; background:url(../images/object_toothpick.png); position:absolute;}
+.object_toothpick_dot1 {width:160px; height:160px; border:2px solid #666666; position:absolute}
+.object_toothpick_dot2 {width:160px; height:160px; border:2px solid #666666; position:absolute; transform: skew(35deg); -webkit-transform: skew(35deg); -moz-transform: skew(35deg);-ms-transform: skew(35deg); transform: rotate(45deg); -webkit-transform: rotate(45deg); -moz-transform: rotate(45deg); -ms-transform: rotate(45deg);}
+.object_toothpick_tipsimage {display:block; width:161px; height:276px; position:absolute; /*left: 328px; top: 36px;*/ background:url(../images/mathks2_polygon_pg2c_tips.png)}
+
+
+.object_palatte {width:92px; height:264px; background:url(../images/object_palatte.png); position:absolute; top:3px; left:24px}
+#object_brush {width:56px; height:51px; position:absolute; z-index:99}
+.brush_empty {background:url(../images/object_brush_empty.png)}
+.brush_white {background:url(../images/object_brush_white.png)}
+.brush_red {background:url(../images/object_brush_red.png)}
+.brush_blue {background:url(../images/object_brush_blue.png)}
+.object_square {width:110px; height:110px; background:#74d664; position:absolute}
+.object_rect {width:220px; height:110px; background:#74d664; position:absolute}
+.object_circle {width:14px; height:14px; background:#007eff; -moz-border-radius: 10px; -webkit-border-radius: 10px; -khtml-border-radius: 10px; border-radius: 10px; position:absolute;}
+.object_square_t {width:110px; height:110px; background:#a684ed; position:absolute; border:1px solid #6f4cb7; -moz-box-shadow: 0px 0px 5px #999; -webkit-box-shadow: 0px 0px 5px #999; box-shadow: 0px 0px 5px #999;}
+.object_rhombus_t {width:110px; height:110px; background:#03c0e9; position:absolute; border:1px solid #0073af; -moz-box-shadow: 0px 0px 5px #999; -webkit-box-shadow: 0px 0px 5px #999; box-shadow: 0px 0px 5px #999; transform: skew(35deg); -webkit-transform: skew(35deg); -moz-transform: skew(35deg);-ms-transform: skew(35deg); transform: rotate(45deg); -webkit-transform: rotate(45deg); -moz-transform: rotate(45deg); -ms-transform: rotate(45deg);}
+.object_rectangle_t {width:180px; height:90px; background:#ffd060; position:absolute; border:1px solid #dcaf27; -moz-box-shadow: 0px 0px 5px #999; -webkit-box-shadow: 0px 0px 5px #999; box-shadow: 0px 0px 5px #999;}
+.object_parallelogram_t {width:170px; height:80px; background:#7be36a; position:absolute; border:1px solid #50ad40; -moz-box-shadow: 0px 0px 5px #999; -webkit-box-shadow: 0px 0px 5px #999; box-shadow: 0px 0px 5px #999; transform: skew(-25deg); -webkit-transform: skew(-25deg); -moz-transform: skew(-25deg);-ms-transform: skew(-25deg)}
+
+
+.object_pinboard {width:268px; height:268px; background:url(../images/object_pinboard.png); position:absolute}
+.object_pinboard_line {position:absolute; width:200px; height:4px; background:#007eff}
+.object_pinboard_line_tips1, .object_pinboard_line_tips2, .object_pinboard_line_tips3, .object_pinboard_line_tips4 {display:block; width:268px; height:268px; position:absolute; left: 328px; top: 36px}
+.object_pinboard_line_tips1 {background:url(../images/object_pinboard_tips1.png)}
+.object_pinboard_line_tips2 {background:url(../images/object_pinboard_tips2.png)}
+.object_pinboard_line_tips3 {background:url(../images/object_pinboard_tips3.png)}
+.object_pinboard_line_tips4 {background:url(../images/object_pinboard_tips4.png)}
+
+#checking {width:46px; height:45px; position:absolute; z-index:99;}
+.check_tick {background:url(../images/icon_tick.png) 0 0}
+.check_cross {background:url(../images/icon_tick.png) 0 -45px}
+
+
+#palatte_color {width:57px; height:56px; margin-left:8px}
+.color_white 		{background:url(../images/object_palatte_white.png); margin-top:45px;}
+.color_red 			{background:url(../images/object_palatte_red.png); margin-top:8px}
+.color_blue 		{background:url(../images/object_palatte_blue.png); margin-top:8px;}
+.color_white:hover 	{background:url(../images/object_palatte_white_on.png)}
+.color_red:hover 	{background:url(../images/object_palatte_red_on.png)}
+.color_blue:hover 	{background:url(../images/object_palatte_blue_on.png)}
+.color_white_on		{background:url(../images/object_palatte_white_on.png); margin-top:45px;}
+.color_red_on		{background:url(../images/object_palatte_red_on.png); margin-top:8px;}
+.color_blue_on		{background:url(../images/object_palatte_blue_on.png); margin-top:8px;}
+
+
+
+.tips1 {display:block; width:86px; height:68px; position:absolute;  background:url(../images/tips1.png);/* background:none*/}
+.tips1:hover {background:url(../images/tips1.png) 0 -68px}
+
+.tips2 {display:block; width:65px; height:57px; position:absolute;  background:url(../images/tips2.png)}
+.tips2:hover {background:url(../images/tips2.png) 0 -57px}
+
+.select_size1, .select_size1_grey {background:url(../images/select_size1.png); position:absolute; font-size:1.3em; padding-top:15px; color:#000000; width:168px; height:35px; text-decoration:none}
+.select_size1:hover {background:url(../images/select_size1_on.png)}
+.select_size1_on {background:url(../images/select_size1_on.png); position:absolute; font-size:1.3em; padding-top:15px; color:#000000; width:168px; height:35px; text-decoration:none}
+.select_size1_ans {background:url(../images/select_size1_ans.png); position:absolute; font-size:1.3em; padding-top:15px; color:#ffffff; width:168px; height:35px; text-decoration:none}
+.select_size2, .select_size2_grey {background:url(../images/select_size2.png); position:absolute; font-size:1.3em; padding-top:10px; color:#000000; width:108px; height:30px; text-decoration:none}
+.select_size2:hover {background:url(../images/select_size2_on.png)}
+.select_size2_on {background:url(../images/select_size2_on.png); position:absolute; font-size:1.3em; padding-top:10px; color:#000000; width:108px; height:30px; text-decoration:none}
+.select_size2_ans {background:url(../images/select_size2_ans.png); position:absolute; font-size:1.3em; padding-top:10px; color:#ffffff; width:108px; height:30px; text-decoration:none}
+.select_size3, .select_size3_grey {background:url(../images/select_size3.png); position:absolute; font-size:1.3em; padding-top:10px; color:#000000; width:128px; height:30px; text-decoration:none}
+.select_size3:hover {background:url(../images/select_size3_on.png)}
+.select_size3_on {background:url(../images/select_size3_on.png); position:absolute; font-size:1.3em; padding-top:10px; color:#000000; width:128px; height:30px; text-decoration:none}
+.select_size3_ans {background:url(../images/select_size3_ans.png); position:absolute; font-size:1.3em; padding-top:10px; color:#ffffff; width:128px; height:30px; text-decoration:none}
+
+.drag_size1 {background:url(../images/drag_size1.png); position:absolute; font-size:1.3em; padding-top:10px; color:#000000; width:168px; height:30px; text-decoration:none; cursor:pointer}
+.drag_size1:hover {background:url(../images/drag_size1_on.png)}
+.drag_size1_on {background:url(../images/drag_size1_on.png); position:absolute; font-size:1.3em; padding-top:10px; color:#000000; width:168px; height:30px; text-decoration:none}
+.drag_tips {color:#2d9001; text-decoration:underline; cursor:pointer}
+.drag_tips:hover {color:#f75d00}
+.drag_size1_done {position:absolute; font-size:1.3em; padding-top:10px; color:#000000; width:168px; height:30px; text-decoration:none; cursor:default}
+
+
+.btn_area {width:920px; height:55px; position:absolute; margin:0 auto; margin-top:-80px; margin-left:40px}
+#btn {display:block; width:128px; height:46px; float:left; background-repeat:no-repeat }
+.btn_back {background:url(../images/btn_back.png)}
+.btn_next {background:url(../images/btn_next.png)}
+.btn_fin {background:url(../images/btn_fin.png)}
+.btn_save {background:url(../images/btn_save.png)}
+.btn_check {background:url(../images/btn_check.png)}
+.btn_back:hover, .btn_next:hover, .btn_fin:hover, .btn_save:hover, .btn_check:hover  {margin-top:4px}
+.btn_next_grey {background:url(../images/btn_next_grey.png); cursor:default}
+.btn_fin_grey {background:url(../images/btn_fin_grey.png); cursor:default}
+.btn_save_grey {background:url(../images/btn_save_grey.png); cursor:default}
+
+.btn_answer {position:absolute; background:url(../images/btn_answer.png); width:128px; height:46px;}
+.btn_answer:hover {margin-top:4px}
+.bottom_4b {width:851px; height:115px; position:absolute; margin-top:-146px; margin-left:40px; background:url(../images/bottom_4b.png)}
+.mid_4c_red {width:211px; height:290px; background:#fcd7ce; position:absolute; -moz-border-radius: 15px; -webkit-border-radius: 15px; -khtml-border-radius: 15px; border-radius: 15px;}
+.mid_4c_blue {width:211px; height:290px; background:#c4f1fb; position:absolute; -moz-border-radius: 15px; -webkit-border-radius: 15px; -khtml-border-radius: 15px; border-radius: 15px;}
+.mid_4c_grey {width:460px;	height:290px;	background:#dddddd;	position:absolute; -moz-border-radius: 15px;	-webkit-border-radius: 15px;	-khtml-border-radius: 15px;	border-radius: 15px;}
+.mid_4c_red_txt {color:#de1818; font-size:1.4em; position:absolute}
+.mid_4c_blue_txt {color:#00b2d9; font-size:1.4em; position:absolute}
+.mid_4c_grey_txt {color:#3e3e3e; font-size:1.4em; position:absolute}
+.square_4d {width:320px; height:320px; background:url(../images/square_4d.png); position:absolute; }
+.quesno_4d {width:160px; height:240px; background:url(../images/quesno_4d.png) 0 8px no-repeat; position:absolute; padding-left:45px; line-height:50px; font-size:1.4em; text-align:left}
+
+#tool_box {width:75px; height:225px; margin-top:50px}
+#tool_box .object_tri_ruler 	{width:75px; height:75px; background:url(../images/object_tool_grp.png) 0 0; cursor:pointer}
+#tool_box .object_measuretape 	{width:75px; height:75px; background:url(../images/object_tool_grp.png) 0 -75px; cursor:pointer}
+#tool_box .object_parallel 		{width:75px; height:75px; background:url(../images/object_tool_grp.png) 0 -150px; cursor:pointer}
+#tool_box .object_tri_ruler:hover 	{background:url(../images/object_tool_grp.png) -75px 0}
+#tool_box .object_measuretape:hover {background:url(../images/object_tool_grp.png) -75px -75px}
+#tool_box .object_parallel:hover 	{background:url(../images/object_tool_grp.png) -75px -150px}
+#tool_box .object_tri_ruler_on 	{width:75px; height:75px; background:url(../images/object_tool_grp.png) -75px 0; display:block}
+#tool_box .object_measuretape_on {width:75px; height:75px; background:url(../images/object_tool_grp.png) -75px -75px; display:block}
+#tool_box .object_parallel_on 	{width:75px; height:75px; background:url(../images/object_tool_grp.png) -75px -150px; display:block}
+.tool_guide {position:absolute;top:150px; left:106px; width:300px;  z-index:98}
+.tool_guide span {background:#ffffff;  -moz-border-radius: 5px; -webkit-border-radius: 5px; -khtml-border-radius: 5px; border-radius: 5px; padding:5px 8px 5px 8px; }
+.pinboard_guide {background:#ffffff; -moz-border-radius: 5px; -webkit-border-radius: 5px; -khtml-border-radius: 5px; border-radius: 5px; padding:5px 10px 5px 10px; position:absolute; z-index:99; line-height:22px}
+
+/************** tips ******************/
+#tips1, #tips2 {height:100%; width:100%; position:fixed; top: 0px; left: 0px; display:block; z-index:99; visibility:hidden}
+.tips_board {margin:0 auto; height:300px; width:600px; margin-top:155px; background:#e9ffe4; border:2px solid #7bc16b; display:block; -moz-border-radius: 15px; -webkit-border-radius: 15px; -khtml-border-radius: 15px; border-radius: 15px; -moz-box-shadow: 0px 0px 5px #999; -webkit-box-shadow: 0px 0px 5px #999; box-shadow: 0px 0px 5px #999;}
+
+.tips_board a{display:block; float:right; height:20px; width:20px; background:url(../images/btn_close.png) no-repeat left top ; margin-top:8px; margin-right:7px; text-decoration:none}
+.tips_board a:hover {background-position: left bottom}

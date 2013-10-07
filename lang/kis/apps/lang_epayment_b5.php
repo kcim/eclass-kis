@@ -1,0 +1,31 @@
+<?
+$kis_lang['transactionrecords'] 	= "交易記錄";
+$kis_lang['paymentrecords'] 		= "繳費記錄";
+$kis_lang['addvaluerecords'] 		= "增值記錄";
+$kis_lang['recent'] 			= "最近";
+$kis_lang['days'] 			= "日";
+$kis_lang['selectperiod'] 		= "選擇時期";
+$kis_lang['transactiontime'] 		= "交易時間";
+$kis_lang['addvaluerecordtime'] 	= "增值時間";
+$kis_lang['trantype'] 			= "交易類別";
+$kis_lang['credit'] 			= "增值";
+$kis_lang['debit'] 			= "支出";
+$kis_lang['balance'] 			= "結餘";
+$kis_lang['refcode'] 			= "參考編號";
+$kis_lang['payment'] 			= "繳費";
+$kis_lang['creditamount'] 		= "增值金額";
+$kis_lang['creditmethod'] 		= "增值方法";
+$kis_lang['subsidy'] 			= "資助金額";
+$kis_lang['deadline'] 			= "限期";
+$kis_lang['paid'] 			= "已繳費";
+$kis_lang['unpaid'] 			= "未繳費";
+$kis_lang['posttime'] 			= "時間";
+$kis_lang['cashdeposit'] 		= "現金存款";
+$kis_lang['accountbalance'] 		= "帳戶結餘";
+$kis_lang['purchase'] 			= "購入";
+$kis_lang['transferto'] 		= "轉移至";
+$kis_lang['transferfrom'] 		= "轉移來源";
+$kis_lang['cancelpayment'] 		= "取消繳費";
+$kis_lang['pps'] 			= "繳費靈";
+$kis_lang['addvaluemachine'] 		= "增值機";
+?>

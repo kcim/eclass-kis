@@ -1,0 +1,43 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html>
+
+<head>
+	<script src="/templates/jquery/jquery-1.8.3.min.js"></script>
+	<script src="html5-curves.js" type="text/javascript"></script>
+	<script type="text/javascript" src="../../script/common.js"></script>
+	<script src="chineseWrite.js" type="text/javascript"></script>
+<style>
+/*
+canvas {
+-ms-transform:scale(0.5, 0.5); -ms-transform-origin:0% 0%;
+-moz-transform:scale(0.5, 0.5); -moz-transform-origin:0% 0%;
+-webkit-transform:scale(0.5, 0.5); -webkit-transform-origin:0% 0%;
+}
+
+.scale_class {
+-ms-transform:scale(0.5, 0.5); -ms-transform-origin:0% 0%;
+-moz-transform:scale(0.5, 0.5); -moz-transform-origin:0% 0%;
+-webkit-transform:scale(0.5, 0.5); -webkit-transform-origin:0% 0%;
+}*/
+.penCanvas { border:0px solid #d3d3d3; position:absolute; left:0px; top:0px; }
+.wrong_mark { opacity:0; display:none; left:0px; top:0px; width:30px; height:30px;
+position:absolute; background:url(wrong_mark_0.png); z-index:30; }
+.wrong_cross { background:url(wrong_mark_1.png); width:127px; height:118px; position:absolute; }
+
+.LB_text { position:absolute; left:10px; top:550px; font-size:36px; font-family:Verdana; }
+</style>
+</head>
+
+<body>
+
+	<div id="container" class="scale_class">
+	</div>
+	<div id="wrongMark" class="wrong_mark">
+		<div id="crossMark" class="wrong_cross"></div>
+	</div>
+	
+</body>
+
+</html>
+

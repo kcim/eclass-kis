@@ -1,0 +1,47 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>Kei Tsun - Target Vocabulary</title>
+	<link href="/templates/kis/css/content_style.css" rel="stylesheet" type="text/css" />
+	<script src="/templates/jquery/jquery-1.8.3.min.js"></script>
+	<script type="text/javascript" src="../script/common.js"></script>
+
+</head>
+<script>
+$(document).ready(
+	function() {
+		store = QueryString;
+		document.getElementById("id_stroke_frame").src = "chi_stroke_sample/stroke_animation.html?type=" + String(store.type) + "&index=" + String(store.index);
+	}
+);
+</script>
+
+<body>
+	
+<div class="main_board">
+	<div class="main_board_content">
+		<div class="main_btn">
+			<a href="#" class="btn_listen" title="聽" onclick="ListenClick();">&nbsp;</a>
+			<a href="#" class="btn_spell" title="寫" onclick="WriteClick();">&nbsp;</a>
+			<a href="#" class="btn_watch" id="id_btn_watch" title="看示範" onclick="WatchClick();">&nbsp;</a>
+		</div>
+		
+		<iframe id="id_stroke_frame" src="" class="stroke_frame" frameborder="0"></iframe>
+		
+		<p class="spacer"></p>
+	</div>
+	
+	<div class="main_board_bottom"> 
+		<div class="reset_btn" id="id_btn_reset"> <a href="#" title="重播" onclick="ReplayClick();">&nbsp;</a> <p class="spacer"></p></div>
+		<div class="main_board_footer">Powered by <a href="#"><img src="/images/kis/logo_eclass_footer.gif" align="absmiddle" /></a></div>
+	</div>
+</div>
+	
+<audio id="id_sound" preload="auto">
+	<source src="soundClip/snd_01.wav" type="audio/wav" />
+	<source src="soundClip/snd_01.mp3" type="audio/mpeg" />
+</audio>
+
+</body>
+</html>

@@ -1,0 +1,57 @@
+@charset "utf-8";
+/* CSS Document */
+
+body,html { margin:0; padding:0px; font-family: Arial, Verdana, Helvetica, sans-serif; font-size: 13x; background:url(../images/vocab/bg.gif)}
+a { text-decoration:none}
+a:hover { text-decoration:none; color:#FF0000}
+p.spacer{clear:both; display:block; line-height:0px; font-size:0px; padding:0; margin:0}
+input { font-family:Arial, Verdana, Helvetica, sans-serif; }
+
+.main_board{ margin: 0 auto; width:800px; display:block;padding-bottom:89px;}
+.main_board_content{background:url(../images/vocab/board_top.png);padding-top:45px; min-height:450px;}
+.vocab_pic{width:375px; height:200px; display:block; float:left; margin-left:205px; background: no-repeat top left}
+.vocab_pic span{width:375px; height:200px; display:block;  background:url(../images/vocab/image_border.png) no-repeat}
+#vocab_content{ display:block; width:480px; margin-left:155px; clear:left; float:left; padding-top:10px;}
+.vocab_text_top{ background:url(../images/vocab/vocab_text_normal_top.gif) no-repeat top left; padding-left:27px; display:block; padding-top:24px;}
+.vocab_text{ width:400px; float:left; display:block; font-size:45px; font-weight:bold; line-height:54px; text-align:center; color:#2a8ff4}
+.vocab_input_box {  height:52px; padding:0px; margin:0px; width:400px; float:left; display:block; font-size:45px; font-weight:bold;  text-align:center; border: 0px; color:#000000}
+.vocab_input_box_s {  height:52px; padding:0px; margin:0px; width:36px;  font-size:45px; font-weight:bold;  text-align:center; border: 0px; color:#000000; background:#FDE7B7;}
+.vocab_correct{ width:40px; height:40px; display:block; float:left; background:url(../images/vocab/tick.png) no-repeat top left; }
+.vocab_text_bottom{ display:block; width:480px; height:7px; background:url(../images/vocab/vocab_text_normal_bottom.gif) no-repeat top left}
+.vocab_normal .vocab_text_top{ background-image:url(../images/vocab/vocab_text_normal_top.gif); text-align:center}
+.vocab_normal .vocab_text_bottom{ background-image:url(../images/vocab/vocab_text_normal_bottom.gif)}
+.vocab_input .vocab_text_top{ background-image:url(../images/vocab/vocab_text_input_top.gif); text-align:center}
+.vocab_input .vocab_text_bottom{ background-image:url(../images/vocab/vocab_text_input_bottom.gif)}
+
+.text_normal .vocab_text{font-size:45px;line-height:54px;}
+.text_normal .vocab_input_box{font-size:45px;line-height:54px;}
+.text_long .vocab_text{font-size:30px;line-height:35px;}
+.text_long .vocab_input_box{font-size:30px;line-height:35px;}
+.vocab_input .vocab_text{ color:#000000}
+.vocab_type{ display:block; text-align:right; color:#989898; font-size:26px; padding-right:10px; font-weight:normal}
+
+#check_answer{ display:block; width:480px; clear:left; float:left; padding-top:10px;}
+.result_message{ font-family:Georgia, "Times New Roman", Times, serif; font-size:20px; text-align:center; display:block; line-height:25px; font-style:italic; font-weight:normal}
+
+.result_correct .result_message{ color:#349f00}
+.result_wrong .result_message{ color:#f04845}
+.show_answer{ display:block; background-color:#ffefef; text-align:center; padding:10px; font-weight:bold;color:#ee302d;font-size:45px;line-height:54px;}
+.text_normal .show_answer{font-size:45px;line-height:54px;}
+.text_long .show_answer{font-size:30px;line-height:35px;}
+
+        
+.main_btn{width:165px; display:block; float:right; padding-top:200px;}
+.main_btn a, .main_btn span{ display:block; background:url(../images/vocab/btn.png) no-repeat left top; width:165px; height:60px; margin-bottom:10px; clear:both;}
+.main_btn a.btn_listen{ background-position: left 0px;}
+.main_btn a.btn_listen:hover{ background-position: left -60px;}
+.main_btn a.btn_spell{ background-position: left -120px;}
+.main_btn a.btn_spell:hover{ background-position: left -180px;}
+.main_btn a.btn_check{ background-position: left -240px;}
+.main_btn a.btn_check:hover{ background-position: left -300px;}
+.main_btn span.btn_check_disable{ background-position: left -360px;}
+.main_board_bottom {background:url(../images/vocab/board_bottom.png); margin-bottom:-89px; height:89px; display:block; }
+.main_board_bottom .reset_btn{ clear:both; display:block; float:left; padding-left:690px; height:50px;}
+.main_board_bottom .reset_btn a{display:block; background:url(../images/vocab/btn_reset.png) no-repeat left top; width:55px; height:65px; margin-bottom:10px; clear:both; margin-top:-30px;}
+.main_board_bottom .reset_btn a:hover{ background-position:left -65px;}
+.main_board_bottom  .main_board_footer { font-size:12px;display:block; clear:both;text-align:right; color:#914003; padding-right:20px; padding-top:10px;}
+.main_board_bottom  .main_board_footer img{ border:none;  }

@@ -1,0 +1,60 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>無標題文件</title>
+<link href="css/cal.css" rel="stylesheet" type="text/css" />
+</head>
+<script language="JavaScript" type="text/javascript">
+/*<![CDATA[*/
+var Lst;
+
+function CngClass(obj){
+
+ obj.className='input_answered';
+
+}
+
+/*]]>*/
+</script>
+<body>
+	<div class="cal_question">
+    	
+   		 <ul class="cal_form">
+        <li>
+         <div class="q_no">1</div><div class="q_title">14 + 3 + 8 + (37-27)</div>
+          <div class="check_result">
+         	<div class="star_s">
+ 	             <span> - 難度 - </span>
+				<ul><li class="star_on"></li><li class="star_on"></li></ul>
+               
+             </div>
+         </div>
+        </li>
+        <li>
+            <div class="equal">=</div>
+            <div class="cal_content">14 + 3 + 8 + (<input type="text" class="input_answered" value="12" />)</div>
+            <div class="check_result"><span class="ans_wrong"></span><a href="#" class="re_check_ans" title="重新檢查答案"></a></div>
+            <p class="spacer"></p>
+        </li>
+        <li>
+            <div class="equal">=</div>
+            <div class="cal_content">14 + 3 + 8 + (<input name="" type="text" onclick="CngClass(this);" />)</div>
+            <div class="check_result"><span class="ans_correct"></span></div>
+            <p class="spacer"></p>
+        </li>
+        <li>
+            <div class="equal">=</div>
+            <div class="cal_content">14 + 3 + 8 + (<input name="" type="text" onclick="CngClass(this);"/>)</div>
+            <div class="check_result"><a href="#" class="check_ans" title="檢查答案"></a></div>
+            <p class="spacer"></p>
+        </li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <a href="#" class="btn_next_q_dim"></a>
+        
+    </ul>
+	</div>
+</body>
+</html>

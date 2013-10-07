@@ -1,0 +1,83 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+	<title>::eClass :: Content Resources :: English :: Target Vocabulary ::</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	
+	<link rel="stylesheet" href="/templates/kis/css/content_style.css" type="text/css" media="screen" />
+    <script src="/templates/jquery/jquery-1.8.3.min.js"></script>
+    <script type="text/javascript" src="../script/common.js"></script>
+	
+</head>
+<script>
+var curNum = 0;
+function ChangeWord(type, index) {
+	curNum = index;
+	$("[name=btn_item]").removeClass("panel_left_item_select");
+	$("[name=btn_item]").addClass("panel_left_item");
+	$("[name=btn_item]")[index].className = "panel_left_item_select";
+	document.getElementById("id_right_frame").src = "kinder_parent_07_content_chi_stroke.htm?type=" + String(type) + "&index=" + String(index);
+	document.getElementById("cur_num").innerHTML = "(" + (index+1) + " of 10)";
+	document.getElementById("id_btn_next").style.visibility = "visible";
+	document.getElementById("id_btn_prev").style.visibility = "visible";
+	if (curNum == 0) {
+		document.getElementById("id_btn_prev").style.visibility = "hidden";
+	} else if (curNum == 3) {
+		document.getElementById("id_btn_next").style.visibility = "hidden";
+	}
+}
+
+function PrevClick() {
+	curNum--;
+	ChangeWord(0, curNum);
+}
+function NextClick() {
+	curNum++;
+	ChangeWord(0, curNum);
+}
+</script>
+
+<body>
+
+<body class="content_panel">
+
+	<div class="content_panel_left" id="id_panel_left">
+		<div class="left_header">
+			<div class="left_icon"></div>
+			<div class="left_title" id="id_left_title">
+				數字
+				<span class="title_num">(10)</span>
+			</div>
+		</div>
+		<div class="panel_left_list">
+			<div onclick="ChangeWord(0, 0)" class="panel_left_item_select" name="btn_item">一</div>
+			<div onclick="ChangeWord(0, 1)" class="panel_left_item" name="btn_item">二</div>
+			<div onclick="ChangeWord(0, 2)" class="panel_left_item" name="btn_item">三</div>
+			<div class="panel_left_item_disable">四</div>
+			<div class="panel_left_item_disable">五</div>
+			<div class="panel_left_item_disable">六</div>
+			<div class="panel_left_item_disable">七</div>
+			<div class="panel_left_item_disable">八</div>
+			<div class="panel_left_item_disable">九</div>
+			<div onclick="ChangeWord(0, 3)" class="panel_left_item" name="btn_item">十</div>
+		</div>
+	</div>
+	
+	<div class="content_panel_right" id="id_panel_right">
+		<div class="right_header">
+			<div class="right_title_bg"></div>
+			<div class="right_icon_select" id="id_list_ctrl" onclick="ShowList();"></div>
+			<div class="right_title" id="id_right_title">
+				數字
+				<span id="cur_num" class="title_num">(1 of 10)</span>
+			</div>
+			<div class="btn_prev" id="id_btn_prev" onclick="PrevClick()" style="visibility:hidden"></div>
+			<div class="btn_next" id="id_btn_next" onclick="NextClick()"></div>
+			<div class="btn_close" id="id_btn_close"></div>
+		</div>
+		
+		<iframe class="right_frame" id="id_right_frame" src="kinder_parent_07_content_chi_stroke.htm?type=0&index=0"></iframe>
+	</div>
+	
+</body>
+</html>
